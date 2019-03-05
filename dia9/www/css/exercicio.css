@@ -1,0 +1,26 @@
+body {
+    background: white;
+}
+
+body section {
+    background: darkgray;
+    background-image: url(/fotos/icona.png);
+    background-repeat: no-repeat;
+    background-position: 20px 20px;
+    width: 70%;
+    height:300px;
+    max-width: 900px;
+    min-width: 400px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    padding-left: 400px;
+    border:2px solid lightgray;
+}
+
+
+body section a {
+    background: lightblue;
+    padding: 10px;
+}

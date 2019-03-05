@@ -1,0 +1,40 @@
+section {
+    max-width: 500px;
+    margin: 0 auto;
+    height: 2000px;
+    font-family: sans-serif;
+    background: lightgray;
+    position: relative;
+
+}
+
+section p {
+    border-width: 5px;
+    border-style: solid;
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+p.un {
+    background: lightblue;
+    border-color: green;
+ 
+}
+
+
+p.dous {
+    background: lightcoral;
+    border-color: yellow;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+p.tres {
+    background: lightcyan;
+    border-color: orange;
+    position: relative;
+    top: -50px;
+    left: 50px;
+    z-index: 2;
+}

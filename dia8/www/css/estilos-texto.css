@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Lemon/Milk';
+    src: url(/fonts/LemonMilk.woff2) format('woff2'),
+        url(/fonts/LemonMilk.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+html {
+    font-size: 150%;
+}
+
+header {
+    background: lightseagreen;
+    font-size: 40px;
+    width: 80%;
+}
+
+body header ul {
+    background: lightcoral;
+    width: 50vw;
+    font-family: 'Lemon/Milk',sans-serif;
+}
+
+header li {
+    font-size: 2rem;
+}

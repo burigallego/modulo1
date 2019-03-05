@@ -1,0 +1,7 @@
+body img {
+    display: inline-block;
+    width: 70%;
+    margin: 0 auto;
+    min-width: 300px;
+    max-width: 500px;
+}

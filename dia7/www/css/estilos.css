@@ -1,0 +1,51 @@
+h1  {
+    color: yellow;
+    background: rebeccapurple;
+}
+
+p.parrafo {
+    background: lightblue;
+}
+
+#principal {
+    background: green;
+}
+
+.verde {
+    text-decoration: underline;
+}
+
+blockquote[lang] {
+    background: blue;
+}
+
+[data-hackabos] {
+    text-decoration: overline;
+}
+
+[data-hackabos='3'] {
+    color: red;
+}
+
+[data-etiquetas~='css'] {
+    font-size: 2rem;
+}
+
+li[data-nome^='css'] {
+    color: blue;
+    font-weight:bold;
+}
+
+li[data-nome$='to'] {
+    color: pink;
+    font-size: 1.5rem;
+}
+
+li[data-nome*='er'] {
+    text-decoration: underline;
+}
+
+a[href^='https'] {
+    background: red;
+}
+

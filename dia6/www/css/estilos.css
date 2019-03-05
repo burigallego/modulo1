@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+
+body > header > h1 {
+    color:rgb(200,70,0);
+    font-family: 'Special Elite', cursive;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight:bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-shadow: 6px -3px 6px rgba(0,0,0,0.5);
+    
+    background: rgb(150,10,130);
+    width: 50%;
+    height: 100px;
+    border: 10px solid black;
+    padding: 20px;
+    margin: 3rem;
+}
+
+.especial {
+    text-align: left;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+
+article > h1 {
+    font-size:2rem;
+    color:firebrick;
+    text-decoration: overline;
+    text-shadow: 6px 3px 5px rgba(70,150,20,0.5);
+}
+
+header strong {
+    background: green;
+}
+
+nav ul {
+    padding-left: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    list-style-type: circle;
+    list-style-position: inside;
+    list-style-image: url(/media/foto/probetas.jpg);
+    font-family: 'Special Elite', cursive;
+    background: lawngreen;
+    margin-right: 50px;
+}
+
+a:link {
+    color:darkorange;
+}
+
+a:visited {
+    color:darkblue;
+}
+
+a:hover {
+    font-weight:bold;
+    color: black;
+}
+
+a:focus {
+    border:3px dotted palegoldenrod;           
+}
+
+a:active {
+    background: skyblue;
+}

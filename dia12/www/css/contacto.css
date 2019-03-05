@@ -1,0 +1,62 @@
+@import 'normalize.css';
+@import 'generic.css';
+
+
+main {
+    min-width: 100vw;
+}
+
+
+
+fieldset {
+    border: none;
+    display: flex;
+    padding: 1rem 0;
+}
+
+section.tlf {
+    background: lightgray;
+    border: 1px solid gray;
+    padding: 1rem;
+}
+
+section.tlf p {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+address.tel::before {
+    content: url(/img/tlf.png)
+    
+}
+
+address.facebook::before {
+    content: url(/img/facebook.png)
+}
+
+section.tlf address {
+    padding: 1rem 0;
+}
+
+section.dirección figure img {
+    width: 100%;
+}
+
+@media (min-width: 800px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    div.contacto {
+        display: flex;
+        align-items: flex-start;
+        padding: 1rem;
+        min-width: 100vw;
+    }
+    div.contacto section {
+        width: 50%;
+        padding: 1rem;
+        margin: 1rem;
+    }
+}

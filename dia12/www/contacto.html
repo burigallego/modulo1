@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="gl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="/css/contacto.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="main-header">
+            <h1>Produtos guais</h1>
+            <nav>
+                <ul>
+                    <li><a class="boton" href="/">Portada</a></li>
+                    <li><a class="boton" href="/produtos.html">Produtos</a></li>
+                    <li><a class="boton" href="/contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="contacto">
+                <section>
+                    <h2>Contacto</h2>
+                    <fieldset>
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" id="nome">
+                    </fieldset>
+                    <fieldset>
+                        <label for="comentario">Comentario</label>
+                        <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <label for="provincia">Provincia</label>
+                        <select name="provincia" id="provincia">
+                            <option value="Coruna">A Coruña</option>
+                            <option value="Pontevedra">Pontevedra</option>
+                            <option value="Lugo">Lugo</option>
+                            <option value="Ourense">Ourense</option>
+                        </select>
+                    </fieldset>
+                    <fieldset>
+                        <label for="cidade">Cidade</label>
+                        <select name="cidade" id="cidade">
+                            <option value="Ferrol">Ferrol</option>
+                            <option value="Coruna">A Coruña</option>
+                            <option value="Santiago">Santiago de Compostela</option>
+                        </select>
+                    </fieldset>
+                    <fieldset>
+                        <button class="boton" type="submit">Enviar</button>
+                    </fieldset>
+                </section>
+                <section class="tlf">
+                    <p>Tamén por:</p>
+                    <address class="tel">981 000 000</address>
+                    <address class="facebook">produtosguais</address>
+                </section>
+            </div>
+            <section class="dirección">
+                <h2>Dirección</h2>
+                <address><strong>Produtos guais</strong> Cidade Vella, s/n 15001 - A Coruña</address>
+                <figure>
+                    <img src="/img/gps.jpg" alt="Geolocalización">
+                    <figcaption>A Coruña</figcaption>
+                </figure>
+            </section>
+            <footer class="main-footer">
+                <p>(c) 2019 Hackabos</p>
+                <nav>
+                    <p>Esta web foi feita no curso de HTML e CSS de Hackabos</p>
+                    <ul>
+                        <li><a href="/">Portada</a></li>
+                        <li><a href="/produtos.html">Produtos</a></li>
+                        <li><a href="/contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </footer>
+
+        </main>
+    </div>
+</body>
+
+</html>

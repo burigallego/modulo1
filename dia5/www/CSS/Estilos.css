@@ -1,0 +1,44 @@
+@import 'outro.css';
+
+body {
+    font-family: Arial;
+}
+
+
+h2 {
+    color: royalblue;
+    background: teal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#art {
+    background: lavender
+}
+
+.importante {
+    background: lightcyan;
+}
+
+.super {
+    font-size: 1.5rem;
+}
+
+h1,h2 {
+    text-decoration: underline;
+}
+
+.super h2 {
+    background: darkblue; 
+}
+
+.importante > p {
+    text-decoration: underline;
+}
+
+.primeiro {
+    font-size: 2rem;
+}
+
+.primeiro + li {
+    background: red;
+}

@@ -1,0 +1,30 @@
+.un {
+    background: lightgreen;
+    margin-bottom: 50px;
+}
+
+.dous {
+    background: lightcyan;
+    width:20rem;
+    height:auto;
+    padding: 70px 10px 30px 50px;
+    margin-top: 20px;
+    border: 20px solid blue;
+}
+
+.dous span {
+    background:lightsalmon;
+    
+}
+
+header {
+    background: lightseagreen;
+    border: 10px solid red;
+}
+
+header h1 {
+    background: rebeccapurple;
+    color: white;
+    margin: 0 auto;
+    width: 50%;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="gl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <h1>Formulario de rexistro</h1>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Portada</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    <section>
+        <h2>Formulario</h2>
+        <form action="/Formulario.html">
+            <fieldset>
+                <legend>Datos persoais</legend>
+                <ul>
+                    <li>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" required>
+                    </li>
+                    <li>
+                        <label for="url">Website:</label>
+                        <input type="url" name="url" id="url">
+                    </li>
+                    <li>
+                        <label for="name">Nome:</label>
+                        <input type="text" name="name" id="name">
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend>Facturación</legend>
+                <ul>
+                    <li>
+                        <label for="enderezo">Enderezo:</label>
+                        <textarea name="enderezo" id="enderezo" cols="30" rows="10"></textarea>
+                    </li>
+                    <li>
+                        <label for="pais">Pais:</label>
+                        <select name="pais" id="pais">
+                            <optgroup label="Europa">
+                                <option value="españa">España</option>
+                                <option value="portugal">Portugal</option>
+
+                            </optgroup>
+                            <optgroup label="Asia">
+                                <option value="china">China</option>
+                                <option value="japon">Japón</option>
+                            </optgroup>
+                        </select>
+                    </li>
+                </ul>
+            </fieldset>
+        </form>
+    </section>
+
+</body>
+</html>
